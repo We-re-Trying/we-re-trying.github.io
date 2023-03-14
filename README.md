@@ -1,1 +1,6 @@
-# we-re-trying.github.io
+# we-re-trying.github.io\
+
+## First Devlog
+March 14, 2023
+
+Happy Pi-Day!!
