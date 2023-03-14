@@ -1,5 +1,3 @@
-# we-re-trying.github.io\
-
 ## First Devlog
 March 14, 2023
 
