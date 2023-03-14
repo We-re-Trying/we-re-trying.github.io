@@ -4,7 +4,7 @@ CSE 4410 March 2, 2023
 Aldo Avalos, Omar Valle, Kevin Villatoro, Victor Vera, Alex Dragoi, Tim Chester
 
 ## Devlog 1
-	Welcome to the beginning of development for our game! As you may know, we are making a top down JRPG in the style of the Mario and Luigi games. We are aiming to have top down exploration, and an active, timing based system for the combat of the game
+Welcome to the beginning of development for our game! As you may know, we are making a top down JRPG in the style of the Mario and Luigi games. We are aiming to have top down exploration, and an active, timing based system for the combat of the game
 
 Firstly we were able to create the tileset for the starting area. This means that we were able to create the visuals for the starting area for our game. We had to use Unity’s layer system in order to stack visuals for objects like a house and trees on top of the ground. This same layering system will allow us to create colliders only for certain parts of the visuals like walls or objects. Something we’re trying to implement is adding collision to some of the tiles. Objects in our environment like the river, house, trees, hills will need collision so that our character does not fall out of the map and will make the level design look great.
 
