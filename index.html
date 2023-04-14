@@ -9,6 +9,18 @@
   		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
+		
+		<h2>Max and Lucia’s Quest for the Holy Grilled Cheese</h2>
+		<p>CSE 4410 April 13, 2023</p>
+		<h3>We’re Trying
+		<p>Aldo Avalos, Omar Valle, Kevin Villatoro, Victor Vera, Alex Dragoi, Tim Chester</p>
+		<h3>Devlog 2</h3>
+		<p>For our second push of updates and additions to the game, we wanted to focus on scene changes and adding collision to our world. While visually we may have had a lonely house surrounded by lush greenery, as far as the player was concerned, it did not exist. Collision was added to the house and surrounding area so that the player and enemies can no longer go out of bounds or through things they shouldn’t. This can also be ported to further scenes to allow the workflow to become quicker in the future.</p>
+		<p>A save and load system was also implemented. This system allows the game to save the progress of the player to a file. The data of the player, such as their level, current hit points, and exp points are saved to the file. They can then be loaded when a scene starts by pulling the information back out of that file. This system can also allow us to initialize our characters when we load into a new scene. In the future, we will also include the inventory in this system as well, so that the inventory can be saved and loaded.</p>
+		<p>We have also started on the main menu. The main menu is fully functional and allows for starting a new game, or continuing one from a previous save file. If a new game is started then a default new game save file will be created, otherwise, when continuing, the scene that is loaded will pull information from the previous save file.</p>
+		<p>Another new implementation in our video games was the addition of a dungeon level. In order to do this we used a new set of tilemaps with a castle theme and added a set of objects for decoration. Collision was add3d to the walls and objects to prevent the enemies and our player from running off the map.</p>
+
+		
 		<img src="Screenshot 2023-03-21 133009.png" width="100%"/>
 		<h2>Max and Lucia’s Quest for the Holy Grilled Cheese</h2>
 		<p>CSE 4410 March 2, 2023</p>
